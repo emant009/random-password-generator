@@ -1,22 +1,51 @@
-body{
+body {
   display: flex;
   justify-content: center;
   height: 100vh;
   align-items: center;
   margin: 0;
-  font-family: 'Courier New', Courier, monospace;
+  padding: 0;
+  font-family: "Courier New", Courier, monospace;
 }
-.password-container{
+.password-container {
   background-color: rgb(252, 208, 151);
   border-radius: 10px;
   width: 500px;
-  height: 140px;
+  margin: 10px;
   padding: 20px;
   justify-content: center;
-  box-shadow: 0 4px 8px rgb(252, 208, 151);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
 }
-.input-container{
-  margin-bottom: 10px;
-  width: 60px;
-  height: 10px;
+.input-container {
+  border-radius: 10px;
+  padding: 0;
+  margin-top: 0;
+  margin-bottom: 5px;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: space-around;
+  border: solid 2px black;
+  padding: 10px;
+  align-items: center;
+}
+input{
+  outline: none;
+  border: none;
+  background-color: transparent;
+  font-size: 24px;
+  
+}
+input::placeholder{
+  letter-spacing: 0px;
+}
+.fa-copy{
+  cursor: pointer;
+}
+.btn{
+  padding: 10px 10px;
+  border-radius: 10px;
+  font-size: 20px;
+  background-color: black;
+  color: white;
+  border-style: double;
 }
