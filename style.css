@@ -6,6 +6,7 @@ body {
   margin: 0;
   padding: 0;
   font-family: "Courier New", Courier, monospace;
+  font-size: 15px;
 }
 .password-container {
   background-color: rgb(252, 208, 151);
@@ -17,10 +18,9 @@ body {
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
 }
 .input-container {
-  border-radius: 10px;
-  padding: 0;
+  border-radius: 7px;
   margin-top: 0;
-  margin-bottom: 5px;
+  margin-bottom: 7px;
   box-sizing: border-box;
   display: flex;
   justify-content: space-around;
@@ -28,24 +28,34 @@ body {
   padding: 10px;
   align-items: center;
 }
-input{
+input {
   outline: none;
   border: none;
   background-color: transparent;
   font-size: 24px;
-  
 }
-input::placeholder{
-  letter-spacing: 0px;
-}
-.fa-copy{
+.fa-copy {
   cursor: pointer;
 }
-.btn{
-  padding: 10px 10px;
-  border-radius: 10px;
+.fa-copy:hover{
+  opacity: 0.7;
+}
+.btn {
+  padding: 10px 20px;
+  border-radius: 7px;
   font-size: 20px;
   background-color: black;
   color: white;
   border-style: double;
+}
+.btn:hover{
+  opacity: 0.6;
+}
+.alert-container{
+  position: fixed;
+  width: 300px;
+  height: 50px;
+  background-color: lightgreen;
+  right: 20px;
+  bottom: 20px;
 }
