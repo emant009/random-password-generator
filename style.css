@@ -1,0 +1,22 @@
+body{
+  display: flex;
+  justify-content: center;
+  height: 100vh;
+  align-items: center;
+  margin: 0;
+  font-family: 'Courier New', Courier, monospace;
+}
+.password-container{
+  background-color: rgb(252, 208, 151);
+  border-radius: 10px;
+  width: 500px;
+  height: 140px;
+  padding: 20px;
+  justify-content: center;
+  box-shadow: 0 4px 8px rgb(252, 208, 151);
+}
+.input-container{
+  margin-bottom: 10px;
+  width: 60px;
+  height: 10px;
+}
